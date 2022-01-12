@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: pk
+  name: j
   demands:
    - agent.name -equals  LAPTOP-RSEJ9CHC
 steps:
