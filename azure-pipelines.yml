@@ -8,8 +8,8 @@ trigger:
 
 pool:
   name: pk
-  demands: 
-   - agent.name -equals LAPTOP-RSEJ9CHC
+  demands:
+   - agent.name -equals  LAPTOP-RSEJ9CHC
 steps:
 - task: Maven@3
   inputs:
